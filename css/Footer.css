@@ -1,0 +1,12 @@
+/* Pie de pagina*/
+footer{
+    margin: 0%;
+	max-width: 100%px;
+	padding: 30px;
+	background-color: black;
+	margin: 0 auto;
+	border-radius: 0 0 20px 20px;
+	color: aliceblue;
+	text-align: center;
+	box-sizing: border-box;
+}
