@@ -1,0 +1,144 @@
+body {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+/*Encabezado */
+
+header {
+	font-size: 25px;
+	text-align: center;
+    color: rgb(255, 255, 255);
+	width: 100%;
+	background:url("../image/Title.jpg");
+    background-size: 25%,500%;
+    margin: 0 auto;
+	padding-top: 10px;
+    border-bottom: 2px solid #2C9AB7;
+}
+
+
+/*Menu*/ 
+#menu1 {
+	float: left;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+	width:218px;
+    height: 700px;
+	background: #000000;
+	clear: left;
+	min-height: 00px;
+}
+a{
+	font-size: 20px;
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	display: inline-block;
+	background: #000000;
+	margin: 10px 0px px 0px;
+	padding: 5px 5px ;
+}
+a:hover{
+	text-decoration: underline;
+	padding: 5px 5px;
+	background: rgb(255, 255, 255);
+	color: #000000;
+}
+/* CUERPO*/
+
+/* Contenedor 1 */
+#contenedor1{
+	text-align: center;
+	min-width: 900px;
+	min-height: 700px;
+	float: left;
+	background: #add0d4;
+	margin: 0 auto;
+
+}
+#Art1{
+    float: left;
+	margin-left: 50px;
+	min-height: 275px;
+	min-width: 480px;
+    background: #b9f8fa;
+    margin-top: 25px;
+}
+
+
+#parrafo1{
+	text-align: justify;
+	font-size: 17PX;
+	max-width: 480px;
+	max-height: 275;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+#Art2{
+    float: right;
+	margin-right: 50px;
+	min-height: 275px;
+	min-width: 300px;
+    background: url(../image/Pug.jpeg);
+	background-size: 100% 100%;
+    margin-top: 25px;
+}
+
+#Art3{
+	margin-left: 50px;
+	min-height: 370px;
+	min-width: 200px;
+	margin-right: 50px;
+	background:#b9f8fa;
+	margin-top: 330px;
+}
+#parrafo2{
+	text-align: justify;
+	font-size: 17PX;
+	max-width: 770px;
+	max-height: 370;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+
+
+
+
+/* Contenedor 2 */
+#contenedor2{
+	width: 400px;
+	min-height: 748px;
+	float: left;
+	background: #b9f8fa;
+	margin: 0 auto;
+}
+#Art4{
+	
+	min-height: 200px;
+	min-width: 350px;
+	margin-right: 50px;
+
+	margin-top: 100px;
+}
+
+#Art5{
+	margin-left: 50px;
+	min-height: 200px;
+	min-width: 350px;
+	margin-right: 50px;
+	margin-top:75px;
+}
+
+
+/* Pie de pagina*/
+footer{
+	background: black;
+	border-radius: 0 0 20px 20px;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	box-sizing: border-box;
+	padding: 50px;
+	font-size: 18px;
+}
