@@ -1,0 +1,108 @@
+
+body {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+/*Encabezado */
+
+header {
+	font-size: 25px;
+	text-align: center;
+    color: rgb(255, 255, 255);
+	width: 100%;
+	background:url("../image/Title.jpg");
+    background-size: 25%,500%;
+    margin: 0 auto;
+	padding-top: 10px;
+    border-bottom: 2px solid #2C9AB7;
+}
+
+
+/*Menu*/ 
+#menu1 {
+	float: left;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+	width:218px;
+	background: #000000;
+	clear: left;
+	min-height: 900px;
+}
+a{
+	font-size: 20px;
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	display: inline-block;
+	background: #000000;
+	margin: 10px 0px px 0px;
+	padding: 5px 5px ;
+}
+a:hover{
+	text-decoration: underline;
+	padding: 5px 5px;
+	background: rgb(255, 255, 255);
+	color: #000000;
+}
+/* CUERPO*/
+
+/* Contenedor 1 */
+#contenedor1{
+    text-align: center;
+	width: 1300px;
+	min-height: 675px;
+	float: right;
+	background: #c2b8b8;
+	margin: 0 auto;
+}
+#tb{
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 40px;
+    border: 1px solid black;
+    min-height: 150px;
+    min-width: 1000px;
+    font-size: 20px;
+    text-align: center;
+    background: #fbfdfd;
+}
+
+#tbi{
+
+    margin-top: 20px;
+
+  
+    min-height: 50px;
+    min-width: 800px;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 0px;
+    background: #a0c5cf;
+}
+#link{
+    color: #000000;
+    background: none;
+}
+#th1{
+    max-width: 400;
+    border: 1px solid black;
+}
+
+th{
+    border: 1px solid black;
+}
+td{
+    border: 1px solid black;
+}
+
+/* Pie de pagina*/
+footer{
+	background: black;
+	border-radius: 0 0 20px 20px;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	box-sizing: border-box;
+	padding: 50px;
+	font-size: 18px;
+}
